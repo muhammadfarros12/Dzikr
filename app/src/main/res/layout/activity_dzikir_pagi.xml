@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DzikirPagi"
+    android:background="@drawable/gradient_background"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:scrollbars="none"
+    android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/waktu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_white"
+                android:padding="14dp"
+                android:gravity="center"
+                android:text="Dzikir Pagi"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+<!--            <LinearLayout
+                android:id="@+id/hadits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_white"
+                android:padding="14dp"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/waktu">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anas_bin_malik_radhiyallahu_anhu_berkata_rasulullah_shallallahu_alaihi_wa_sallam_bersabda"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hadits"
+                    android:textSize="18sp"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/Black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/arti_hadits"
+                    android:layout_marginTop="7dp"
+                    android:textColor="@color/Black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/taawudz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_white"
+                android:gravity="center"
+                android:padding="14dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/hadits">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:gravity="center"
+                    android:textSize="17sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="“Aku berlindung kepada Allah dari godaan syaitan yang terkutuk.”"
+                    android:textColor="@color/Black"
+                    android:layout_marginTop="7dp"/>
+
+            </LinearLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/daftar_dzikir_pagi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/waktu" />
+
+</LinearLayout>
+
+
+
+
