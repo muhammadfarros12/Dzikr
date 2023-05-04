@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Dzikir Pagi"
+        android:text="@string/dzikir_pagi"
         android:textSize="16sp"
         android:textStyle="bold"
         android:textColor="@color/Black"/>
@@ -33,7 +33,7 @@
             android:id="@+id/tv_repeating_pagi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Setel Waktu Alarm" />
+            android:text="@string/setel_waktu_alarm" />
     </LinearLayout>
 
     <EditText
@@ -41,8 +41,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Setel Pesan Alarm Dzikir"
-        android:textSize="14dp"
+        android:hint="@string/setel_pesan_alarm_dzikir"
+        android:textSize="14sp"
         android:inputType="text" />
 
     <LinearLayout
@@ -57,14 +57,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:textColor="@color/red"
-            android:text="Batalkan Alarm" />
+            android:text="@string/batalkan_alarm"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btn_set_repeating_alarm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Set Alarm Dzikir" />
+            android:textColor="@color/Black"
+            android:text="@string/set_alarm_dzikir"
+            style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 
@@ -72,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="Dzikir Petang"
+        android:text="@string/dzikir_petang"
         android:textSize="16sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
@@ -88,13 +91,14 @@
             android:id="@+id/btn_alarm_petang"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_time" />
+            android:src="@drawable/ic_time"
+            android:contentDescription="@string/alarm_icon" />
 
         <TextView
             android:id="@+id/tv_repeating_petang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Setel Waktu Alarm" />
+            android:text="@string/setel_waktu_alarm" />
     </LinearLayout>
 
     <EditText
@@ -102,8 +106,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Setel Pesan Alarm Dzikir"
-        android:textSize="14dp"
+        android:hint="@string/setel_pesan_alarm_dzikir"
+        android:textSize="14sp"
         android:inputType="text" />
 
     <LinearLayout
@@ -118,14 +122,17 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
             android:textColor="@color/red"
-            android:text="Batalkan Alarm" />
+            android:text="@string/batalkan_alarm"
+            style="?android:attr/buttonBarButtonStyle" />
 
         <Button
             android:id="@+id/btn_set_repeating_alarm2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.5"
-            android:text="Set Alarm Dzikir" />
+            android:textColor="@color/Black"
+            android:text="@string/set_alarm_dzikir"
+            style="?android:attr/buttonBarButtonStyle" />
 
     </LinearLayout>
 
@@ -155,6 +162,7 @@
             android:text="“Orang-orang yang beriman dan hati mereka menjadi tenteram dengan berzikir (mengingat) Allah. Ingatlah, hanya dengan mengingat Allah hati menjadi tenteram” ."
             android:layout_marginTop="16dp"
             android:textSize="13sp"
+            android:justificationMode="inter_word"
             android:textColor="@color/Black"/>
 
         <TextView

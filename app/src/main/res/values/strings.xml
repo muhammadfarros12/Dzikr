@@ -8,5 +8,12 @@
     <string name="arti_hadits">“Aku duduk bersama orang-orang yang berdzikrullah Ta’ala mulai dari (waktu) sholat shubuh hingga terbit matahari lebih aku cintai daripada memerdekakan empat orang budak dari putra Nabi Isma’il. Dan aku duduk bersama orang-orang yang berdzikrullah mulai dari (waktu) sholat Ashar sampai terbenam matahari lebih aku cintai daripada memerdekakan empat orang budak” (HR. Abu Dawud: 3667, dihasankan oleh Syaikh Al-Albani).</string>
     <string name="waktu_dzikir_pagi_yang_dianjurkan">Waktu Dzikir Pagi Yang Dianjurkan</string>
     <string name="anas_bin_malik_radhiyallahu_anhu_berkata_rasulullah_shallallahu_alaihi_wa_sallam_bersabda">Anas bin Malik radhiyallahu ‘anhu berkata, rasulullah shallallahu alaihi wa sallam bersabda,</string>
+    <string name="dzikir_pagi">Dzikir Pagi</string>
+    <string name="setel_waktu_alarm">Setel Waktu Alarm</string>
+    <string name="setel_pesan_alarm_dzikir">Setel Pesan Alarm Dzikir</string>
+    <string name="batalkan_alarm">Batalkan Alarm</string>
+    <string name="set_alarm_dzikir">Set Alarm Dzikir</string>
+    <string name="dzikir_petang">Dzikir Petang</string>
+    <string name="alarm_icon">alarm icon</string>
 
 </resources>
